@@ -1,0 +1,68 @@
+body{
+    background-image: url('pages/image/fondo.jpg');
+    background-position: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 20px 5px;
+    width: 200px;
+    height: 200px;
+}
+nav {
+    background-color:#E9ACA2;
+    
+    }
+
+ nav li {
+     display: block;
+     display: inline-block;
+ }
+ nav a {
+     color: #000;
+     margin:50px 50px;
+     padding: 28px 28px;
+     text-decoration:solid;
+     font-size: 15px;
+     font-family: 'Bowlby One SC', cursive;
+     font-weight:lighter;
+ }
+
+ header h1 {
+    text-align: center;
+    color:#aba2ce;
+    text-decoration: black;
+     
+    font-size:40pt;
+    margin: 10px 0px;
+    font-family: 'Bowlby One SC', cursive;
+}
+ .agrupar {
+    width: 82%;
+    background:#e6f6f7;
+    margin:20px auto;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Georama', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 20pt;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .pie{
+        clear: both;
+        text-align: center;
+        font-family:'Georama', sans-serif;
+        font-size: 15pt;
+        color:black;
+        width: 82%;
+        background:#e6f6f7;
+        margin:20px auto;
+        padding: 30px;
+        list-style-type:none ;
+        }
+
+    

@@ -1,0 +1,97 @@
+
+.navbar{
+    width: 20%;
+    margin: center;
+    padding: 40px 0;
+    display:inline-flexbox;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .logo{
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .navbar ul li a {
+     color: #A95C85;
+     text-decoration:none;
+     font-size: 35px;
+     font-family: 'Bowlby One SC', cursive;
+     font-weight:lighter;
+  }
+  
+  
+  body{
+      background-image: url('../image/fondo.jpg');
+      background-position: center;
+  }
+     .alert{
+      z-index: 100;
+    }
+    .description{
+      height: 25px;
+      overflow: hidden;
+      transition: height .3s ease-in .3s;
+    }
+    .description {
+      height: 80px;
+    }
+    
+      .hide, .remove{
+      display: none;
+    }
+  
+    .container {
+      background-size:cover ;
+     
+       
+  }
+  
+  .carrito{
+     min-height: 80vh;
+     max-width: 1000px;
+     margin: 0 auto;
+     width: 100%;
+  }
+  
+  .table__productos{
+     display: flex;
+     
+  }
+  
+  
+  
+  .table__cantidad > input{
+     width: 40px;
+     border: none;
+     outline: 0;
+     font-size: 16px;
+     font-weight: 700;
+     margin-right: 30px;
+     margin-bottom: 20px;
+  }
+
+  .button {
+   text-decoration: none;
+   text-decoration-color: black;
+    background-color: azure;
+    border:1px solid #232323;
+    box-shadow: 2px 4px 2px #000;
+    -moz-box-shadow: 2px 4px 2px #000;
+    -webkit-box-shadow: 2px 4px 2px #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+
+    .h1 {
+        text-align: center;
+        color:#aba2ce;
+        text-decoration: black;
+         
+        font-size:40pt;
+        margin: 10px 0px;
+        font-family: 'Bowlby One SC', cursive;
+    }
